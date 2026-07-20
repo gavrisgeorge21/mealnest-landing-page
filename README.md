@@ -1,5 +1,7 @@
 # MealNest Landing Page
 
+## [🌐 View the site](https://gavrisgeorge21.github.io/mealnest-landing-page/)
+
 ## 🟢 What is MealNest?
 
 A fictional meal planning app that helps users organize weekly meals, create grocery lists, and discover recipes.
