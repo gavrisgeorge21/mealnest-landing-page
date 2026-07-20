@@ -341,3 +341,131 @@ body {
   color: var(--text-dark-clr);
 }
 /* Hero styling */
+
+/* Features styling */
+.features-title {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: var(--text-dark-clr);
+}
+.features-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  padding: 0 2rem;
+}
+.features-card {
+  display: flex;
+  gap: 1rem;
+  border: 1px solid var(--border-clr-light);
+  border-radius: 8px;
+  background-color: var(--card-clr);
+  padding: 25px;
+  box-shadow: -1px 1px 6px rgba(0, 0, 0, 0.1);
+}
+.features-card-text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.features-card-title {
+  color: var(--text-dark-clr);
+  font-weight: 600;
+}
+.features-card-secondary-text {
+  color: var(--text-clr);
+  font-weight: 500;
+  font-size: 0.9rem;
+  max-width: 27ch;
+}
+.features-card span {
+  font-size: 3.5rem;
+}
+.features-calendar,
+.features-recipe-library {
+  color: var(--secondary-clr);
+}
+.features-shopping-card {
+  color: var(--accent-clr);
+}
+/* Features styling */
+
+/* How it works styling */
+.hiw-title {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: var(--text-dark-clr);
+}
+.hiw-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+  padding: 0 2rem;
+}
+.hiw-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  text-align: center;
+}
+.hiw-card span:nth-child(2) {
+  font-size: 3.5rem;
+}
+.hiw-container .hiw-card:first-child span:nth-child(2),
+.hiw-container .hiw-card:last-child span:nth-child(2) {
+  color: var(--primary-clr);
+  background-color: rgba(56, 187, 56, 0.118);
+  padding: 15px;
+  border-radius: 20px;
+  border: 1px solid rgba(56, 187, 56, 0.118);
+}
+.hiw-grocery {
+  color: var(--accent-clr);
+  background-color: rgba(240, 161, 35, 0.118);
+  padding: 15px;
+  border-radius: 20px;
+  border: 1px solid rgba(240, 161, 35, 0.118);
+}
+.material-symbols-outlined.hiw-counter {
+  font-variation-settings: "FILL" 1;
+  font-size: 2rem;
+}
+.hiw-counter-1,
+.hiw-counter-3 {
+  color: var(--primary-clr);
+}
+.hiw-counter-2 {
+  color: var(--accent-clr);
+}
+.hiw-card-title {
+  color: var(--text-dark-clr);
+  font-weight: 600;
+}
+.hiw-secondary-text {
+  color: var(--text-clr);
+  font-weight: 500;
+  font-size: 0.9rem;
+  max-width: 26ch;
+}
+.hiw-hr {
+  border-style: dashed;
+  border-width: 2px;
+  width: 100px;
+  color: var(--border-clr-light);
+  margin-bottom: 50px;
+}
+.material-symbols-outlined.hiw-arrow {
+  font-size: 2rem;
+  color: var(--border-clr-light);
+  margin-left: 1px;
+  margin-bottom: 50px;
+}
+/* How it works styling */
