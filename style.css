@@ -630,9 +630,6 @@ body {
   box-shadow: 0px 5px 6px rgba(229, 153, 10, 0.301);
   transform: translateY(-2px);
 }
-body.dark .pro-card button:hover {
-  box-shadow: 1px 6px 10px rgba(229, 153, 10, 0.301);
-}
 .pricing-bottom-text {
   text-align: center;
   font-size: 0.9rem;
