@@ -469,3 +469,175 @@ body {
   margin-bottom: 50px;
 }
 /* How it works styling */
+
+/* Reviews */
+.reviews-title {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: var(--text-dark-clr);
+}
+.reviews-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  padding: 0 2rem;
+}
+.reviews-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  font-size: 1rem;
+  color: var(--text-clr);
+  font-weight: 500;
+  border: 1px solid var(--border-clr-light);
+  border-radius: 8px;
+  padding: 20px;
+  background-color: var(--card-clr);
+  box-shadow: -1px 1px 6px rgba(0, 0, 0, 0.1);
+}
+.reviews-card-stars span {
+  font-variation-settings: "FILL" 1;
+  color: var(--accent-clr);
+}
+.reviews-card-text {
+  max-width: 40ch;
+}
+.reviews-card-profile {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.reviews-card-profile span {
+  font-size: 3rem;
+  font-variation-settings: "FILL" 1;
+}
+.account-circle-pink {
+  color: rgba(255, 20, 192, 0.653);
+}
+.account-circle-blue {
+  color: rgba(0, 0, 255, 0.616);
+}
+.profile-name {
+  color: var(--text-dark-clr);
+  font-weight: 600;
+}
+/* Reviews  */
+
+/* Pricing */
+.pricing-title {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--text-dark-clr);
+}
+.pricing-secondary-text {
+  text-align: center;
+  font-size: 0.9rem;
+  color: var(--text-clr);
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+.pricing-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+.pricing-container ul {
+  list-style-type: none;
+}
+.pricing-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: var(--card-clr);
+  gap: 0.5rem;
+  border: 1px solid var(--border-clr-light);
+  border-radius: 8px;
+  box-shadow: -1px 1px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 22%;
+}
+.pricing-card > p {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text-dark-clr);
+}
+.pricing-card > div {
+  display: flex;
+  align-items: flex-end;
+  gap: 0.3rem;
+  margin-bottom: 1rem;
+}
+.pricing-card div p:first-child {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--text-dark-clr);
+}
+.pricing-card div p:last-child {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--text-clr);
+}
+.pricing-card ul {
+  margin-bottom: 65px;
+}
+.pricing-card ul li {
+  font-size: 0.9rem;
+  color: var(--text-dark-clr);
+  font-weight: 500;
+}
+.pricing-card button {
+  font-size: 1rem;
+  color: #fff;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+.free-card {
+  border-top: 3px solid var(--secondary-clr);
+}
+.free-card ul span {
+  color: var(--secondary-clr);
+}
+.free-card button {
+  background-color: var(--secondary-clr);
+}
+.free-card button:hover {
+  box-shadow: 0px 5px 6px rgba(1, 148, 8, 0.301);
+  transform: translateY(-2px);
+}
+.pro-card {
+  border-top: 3px solid var(--accent-clr);
+}
+.pro-card ul {
+  margin-bottom: 1rem;
+}
+.pro-card ul span {
+  color: var(--accent-clr);
+}
+.pro-card button {
+  background-color: var(--accent-clr);
+}
+.pro-card button:hover {
+  box-shadow: 0px 5px 6px rgba(229, 153, 10, 0.301);
+  transform: translateY(-2px);
+}
+body.dark .pro-card button:hover {
+  box-shadow: 1px 6px 10px rgba(229, 153, 10, 0.301);
+}
+.pricing-bottom-text {
+  text-align: center;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--text-clr);
+  margin-bottom: 1rem;
+}
+/* Pricing */
