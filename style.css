@@ -638,3 +638,108 @@ body {
   margin-bottom: 1rem;
 }
 /* Pricing */
+
+/* Footer */
+#footer {
+  border-top: 1px solid var(--border-clr-light);
+  padding-top: 2rem;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  max-width: 1300px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 2rem;
+  margin-bottom: 1rem;
+}
+.footer-text {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--text-clr);
+}
+.footer-list {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+.footer-list p {
+  margin-bottom: 0.5rem;
+  color: var(--text-dark-clr);
+}
+.footer-list ul {
+  list-style: none;
+  color: var(--text-clr);
+}
+.footer-list ul li {
+  cursor: pointer;
+  transition: 0.3s;
+}
+.footer-list ul li:hover {
+  color: var(--primary-clr);
+}
+.subscription-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+.subscription-title {
+  color: var(--text-dark-clr);
+  font-weight: 600;
+}
+.subscription-secondary-text {
+  color: var(--text-clr);
+}
+#email-input {
+  padding: 10px;
+  border: 1px solid var(--border-clr-light);
+  border-radius: 8px;
+  color: var(--text-clr);
+  background: transparent;
+}
+#email-input:hover {
+  border-color: var(--border-clr);
+  transition: 0.3s all;
+}
+.subscription-email {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
+.subscribe-btn {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #fff;
+  background-color: var(--secondary-clr);
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  transition: 0.3s all;
+  cursor: pointer;
+}
+.subscribe-btn:hover {
+  box-shadow: 0 5px 6px rgba(1, 148, 8, 0.301);
+  transform: translateY(-3px);
+}
+.subscribe-btn:active {
+  background-color: var(--primary-clr);
+}
+#subscription-message {
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+.subscription-message.success {
+  color: green;
+}
+.footer-c {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--text-clr);
+  text-align: center;
+  margin-bottom: 1rem;
+  padding: 1rem 0;
+}
+/* Footer */
