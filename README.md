@@ -2,6 +2,8 @@
 
 ## [🌐 View the site](https://gavrisgeorge21.github.io/mealnest-landing-page/)
 
+[<img width="800" height="425" alt="ezgif com-optimize" src="https://github.com/user-attachments/assets/a2ca1b0a-637c-4a4c-9c46-e12b3b645c31" />](https://gavrisgeorge21.github.io/mealnest-landing-page/)
+
 ## 🟢 What is MealNest?
 
 A fictional meal planning app that helps users organize weekly meals, create grocery lists, and discover recipes.
@@ -34,4 +36,9 @@ This project is a modern responsive landing page, built as a frontend practice p
 ### 🔷 Pricing section
 
 <img width="724" height="461" alt="pricing-section" src="https://github.com/user-attachments/assets/71910c04-9c06-4be8-8cf9-ac90b7be4e62" />
+
+### 🔷 Newsletter subscription form
+
+<img width="360" height="212" alt="subscription-form" src="https://github.com/user-attachments/assets/0a62d152-827b-441f-bd71-da868d22c9b5" />
+
 
