@@ -9,3 +9,29 @@ A fictional meal planning app that helps users organize weekly meals, create gro
 ## ⚡ About the project
 
 This project is a modern responsive landing page, built as a frontend practice project. The idea was generated with AI, and I built the page from scratch based on it
+
+## 🔵 Features
+
+### 🔷 Weekly meal planner preview
+
+<img width="712" height="605" alt="weekly-meal-planner-preview" src="https://github.com/user-attachments/assets/8973191b-b8c9-4e09-8568-308a1b26bfcb" />
+
+### 🔷 Feature cards
+
+<img width="1183" height="221" alt="feature-cards" src="https://github.com/user-attachments/assets/866d104d-282e-4044-9680-490c1cb3adbe" />
+
+
+### 🔷 How it works section
+
+<img width="1016" height="359" alt="hiw-section" src="https://github.com/user-attachments/assets/f73ab432-c1cf-4265-a696-ed67842e0e62" />
+
+
+### 🔷 Customer reviews
+
+<img width="969" height="271" alt="customer-reviews" src="https://github.com/user-attachments/assets/2a3c5591-aa42-4eaf-a263-e4ebf7b5c07e" />
+
+
+### 🔷 Pricing section
+
+<img width="724" height="461" alt="pricing-section" src="https://github.com/user-attachments/assets/71910c04-9c06-4be8-8cf9-ac90b7be4e62" />
+
