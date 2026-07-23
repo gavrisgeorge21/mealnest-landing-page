@@ -670,13 +670,13 @@ body {
 }
 .footer-list ul {
   list-style: none;
+}
+.footer-list ul li a {
+  transition: 0.3s;
+  text-decoration: none;
   color: var(--text-clr);
 }
-.footer-list ul li {
-  cursor: pointer;
-  transition: 0.3s;
-}
-.footer-list ul li:hover {
+.footer-list ul li a:hover {
   color: var(--primary-clr);
 }
 .subscription-container {
@@ -855,8 +855,14 @@ body {
 }
 
 @media (max-width: 768px) {
+  .navbar-container {
+    padding: 1rem 0;
+  }
   .navbar-buttons {
     display: none;
+  }
+  .navbar-links {
+    top: 5rem;
   }
   .navbar-links .navbar-buttons {
     display: flex;
@@ -880,6 +886,15 @@ body {
 }
 
 @media (max-width: 480px) {
+  .navbar {
+    padding: 0 1rem;
+  }
+  .logo {
+    font-size: 1.4rem;
+  }
+  .logo > a > .logo-icon {
+    font-size: 2.3rem;
+  }
   .hero-title {
     font-size: 2.5rem;
   }
