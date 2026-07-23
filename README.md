@@ -41,4 +41,13 @@ This project is a modern responsive landing page, built as a frontend practice p
 
 <img width="360" height="212" alt="subscription-form" src="https://github.com/user-attachments/assets/0a62d152-827b-441f-bd71-da868d22c9b5" />
 
+### 🔷 Hamburger menu
+
+<img width="266" height="578" alt="hamburger-menu-gif" src="https://github.com/user-attachments/assets/7fde3400-d072-43f1-9871-df4a657b3328" />
+
+
+
+
+
+
 
