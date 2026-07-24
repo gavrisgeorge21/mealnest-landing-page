@@ -744,6 +744,18 @@ body {
 }
 /* Footer */
 
+.scroll-reveal {
+  opacity: 0;
+  transform: translateY(30px);
+  transition:
+    opacity 1s ease,
+    transform 1s ease;
+}
+.scroll-reveal.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 @media (max-width: 1160px) {
   .hero-container {
     grid-template-columns: 1fr;
@@ -873,7 +885,6 @@ body {
   .meal-planner {
     overflow-x: auto;
   }
-
   .features-card {
     width: 60%;
   }
