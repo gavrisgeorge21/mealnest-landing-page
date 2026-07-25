@@ -858,6 +858,21 @@ body {
     visibility: visible;
     transform: translateX(0);
   }
+  .overlay {
+    position: fixed;
+    inset: 0;
+    top: 6rem;
+    background: rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(5px);
+    opacity: 0;
+    transition: opacity 0.25s ease;
+    z-index: 998;
+    pointer-events: none;
+  }
+  .overlay.active {
+    opacity: 1;
+    pointer-events: auto;
+  }
   .reviews-container {
     flex-direction: column;
   }
@@ -881,6 +896,9 @@ body {
     flex-direction: column;
     justify-content: center;
     gap: 1rem;
+  }
+  .overlay {
+    top: 5rem;
   }
   .meal-planner {
     overflow-x: auto;
