@@ -2,7 +2,7 @@
 
 ## [🌐 View the site](https://gavrisgeorge21.github.io/mealnest-landing-page/)
 
-[<img width="800" height="425" alt="ezgif com-optimize" src="https://github.com/user-attachments/assets/a2ca1b0a-637c-4a4c-9c46-e12b3b645c31" />](https://gavrisgeorge21.github.io/mealnest-landing-page/)
+[<img width="800" height="424" alt="site-gif" src="https://github.com/user-attachments/assets/163670e3-d89e-42fd-9d57-5ac9df411668" />](https://gavrisgeorge21.github.io/mealnest-landing-page)
 
 ## 🟢 What is MealNest?
 
@@ -25,7 +25,7 @@ This project is a modern responsive landing page, built as a frontend practice p
 
 ### 🔷 How it works section
 
-<img width="1016" height="359" alt="hiw-section" src="https://github.com/user-attachments/assets/f73ab432-c1cf-4265-a696-ed67842e0e62" />
+<img width="1016" height="319" alt="hiw-section" src="https://github.com/user-attachments/assets/a289d896-bdce-4d40-bea0-0b2b47b48fa3" />
 
 
 ### 🔷 Customer reviews
@@ -43,7 +43,12 @@ This project is a modern responsive landing page, built as a frontend practice p
 
 ### 🔷 Hamburger menu
 
-<img width="266" height="578" alt="hamburger-menu-gif" src="https://github.com/user-attachments/assets/7fde3400-d072-43f1-9871-df4a657b3328" />
+<img width="264" height="408" alt="hamburger-menu-gif" src="https://github.com/user-attachments/assets/2aace905-f7d7-429a-a0b2-7ef50de9fd33" />
+
+### 🔷 Scroll reveal animations
+
+<img width="800" height="425" alt="scroll-reveal-gif" src="https://github.com/user-attachments/assets/c0296a36-9edb-4322-8ec7-3f0028c6d7ac" />
+
 
 
 
