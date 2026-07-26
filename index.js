@@ -36,3 +36,22 @@ const scrollRevealObserver = new IntersectionObserver(
 scrollRevealElements.forEach((element) => {
   scrollRevealObserver.observe(element);
 });
+
+const emailInput = document.querySelector("#email-input");
+const subscriptionMessage = document.querySelector("#subscription-message");
+const subscriptionForm = document.querySelector("#subscription-form");
+
+subscriptionForm.addEventListener("submit", (event) => {
+  event.preventDefault();
+  if (!emailInput.checkValidity()) {
+    emailInput.reportValidity();
+    subscriptionMessage.textContent = "";
+    return;
+  }
+  subscriptionMessage.textContent = "You have successfully subscribed!";
+  subscriptionMessage.className = "subscription-message success";
+});
+
+emailInput.addEventListener("input", () => {
+  subscriptionMessage.textContent = "";
+});
