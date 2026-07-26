@@ -22,16 +22,13 @@ This project is a modern responsive landing page, built as a frontend practice p
 
 <img width="1183" height="221" alt="feature-cards" src="https://github.com/user-attachments/assets/866d104d-282e-4044-9680-490c1cb3adbe" />
 
-
 ### 🔷 How it works section
 
 <img width="1016" height="319" alt="hiw-section" src="https://github.com/user-attachments/assets/a289d896-bdce-4d40-bea0-0b2b47b48fa3" />
 
-
 ### 🔷 Customer reviews
 
 <img width="969" height="271" alt="customer-reviews" src="https://github.com/user-attachments/assets/2a3c5591-aa42-4eaf-a263-e4ebf7b5c07e" />
-
 
 ### 🔷 Pricing section
 
@@ -39,7 +36,7 @@ This project is a modern responsive landing page, built as a frontend practice p
 
 ### 🔷 Newsletter subscription form
 
-<img width="360" height="212" alt="subscription-form" src="https://github.com/user-attachments/assets/0a62d152-827b-441f-bd71-da868d22c9b5" />
+<img width="444" height="230" alt="subscription-form-gif" src="https://github.com/user-attachments/assets/bfdb27c6-349e-4026-bd26-2510d73067d3" />
 
 ### 🔷 Hamburger menu
 
