@@ -20,7 +20,6 @@
 body {
   background-color: var(--background-clr);
 }
-
 .material-symbols-outlined {
   line-height: 1px;
   vertical-align: middle;
@@ -143,8 +142,9 @@ body {
 }
 .hero-left-group {
   display: flex;
+  justify-content: center;
   flex-direction: column;
-  gap: 2rem;
+  gap: 3rem;
   padding-top: 2rem;
 }
 .hero-title {
@@ -161,6 +161,9 @@ body {
   font-size: 1.3rem;
   max-width: 35ch;
 }
+.hero-buttons {
+  display: flex;
+}
 .hero-buttons button span {
   color: var(--secondary-clr);
   font-size: 1.6rem;
@@ -171,10 +174,10 @@ body {
 }
 .hero-btn {
   cursor: pointer;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   font-weight: 500;
   color: #fff;
-  padding: 0.8rem 2rem;
+  padding: 0.5rem 1rem;
 }
 .watch-demo-btn {
   margin-left: 1rem;
@@ -183,7 +186,7 @@ body {
   background: none;
   border: 2px solid var(--border-clr);
   transition: 0.3s all;
-  padding: 0.7rem 1.5rem;
+  padding: 0.5rem 1rem;
 }
 .watch-demo-btn:hover {
   border-color: transparent;
@@ -239,38 +242,56 @@ body {
   border-radius: 8px;
   width: 100%;
 }
+.meal-planner-container button {
+  font-size: 0.8rem;
+  background: none;
+  border: none;
+  border-right: 1px solid var(--border-clr-light);
+  border-radius: 8px;
+  cursor: pointer;
+}
+.meal-planner-container button:last-child {
+  border: none;
+  border-left: 1px solid var(--border-clr-light);
+}
+.meal-planner-container button:active {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
+}
+.meal-planner-container .arrow.right {
+  rotate: 180deg;
+  padding-left: 1rem;
+}
 .meal-planner-container span {
   padding-left: 1rem;
 }
 .meal-planner-header span {
   font-size: 0.8rem;
-  border-right: 1px solid var(--border-clr-light);
   border-radius: 8px;
-  cursor: pointer;
+  color: var(--text-dark-clr);
 }
-.meal-planner-header span:hover {
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
+.meal-planner-container span:hover {
+  box-shadow: 0px -1px 3px rgba(0, 0, 0, 0.2);
 }
 .arrow {
   padding: 15px 10px;
 }
-.calendar {
+.meal-planner-header > button {
   border: 1px solid var(--border-clr-light);
+  padding: 11px 15px;
+  border-radius: 8px;
+  background: none;
+  cursor: pointer;
 }
-.meal-planner-header > span {
-  padding: 15px;
+.meal-planner-header > button:hover {
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2);
+}
+.meal-planner-header > button:active {
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
 }
 .meal-planner-header p {
   color: var(--text-dark-clr);
   font-size: 1rem;
   font-weight: 600;
-}
-.meal-planner-header div span:last-child {
-  rotate: 180deg;
-  padding-left: 1rem;
-}
-.meal-planner-header div span:last-child:hover {
-  box-shadow: 0px -1px 3px rgba(0, 0, 0, 0.2);
 }
 .meal-planner-grid {
   display: grid;
@@ -755,6 +776,9 @@ body {
   opacity: 1;
   transform: translateY(0);
 }
+.overlay {
+  display: none;
+}
 
 @media (max-width: 1160px) {
   .hero-container {
@@ -859,6 +883,7 @@ body {
     transform: translateX(0);
   }
   .overlay {
+    display: block;
     position: fixed;
     inset: 0;
     top: 6rem;
