@@ -55,3 +55,36 @@ subscriptionForm.addEventListener("submit", (event) => {
 emailInput.addEventListener("input", () => {
   subscriptionMessage.textContent = "";
 });
+
+const themeToggleButton = document.querySelectorAll(".theme-toggle");
+const themeIcon = document.querySelectorAll(".theme-icon");
+
+function updateThemeIcons() {
+  themeIcon.forEach((icon) => {
+    if (document.body.classList.contains("dark")) {
+      icon.innerHTML = "light_mode";
+    } else {
+      icon.innerHTML = "dark_mode";
+    }
+  });
+}
+
+if (localStorage.getItem("theme") === "dark") {
+  document.body.classList.add("dark");
+}
+
+updateThemeIcons();
+
+themeToggleButton.forEach((button) => {
+  button.addEventListener("click", () => {
+    document.body.classList.toggle("dark");
+
+    if (document.body.classList.contains("dark")) {
+      localStorage.setItem("theme", "dark");
+    } else {
+      localStorage.setItem("theme", "light");
+    }
+
+    updateThemeIcons();
+  });
+});
