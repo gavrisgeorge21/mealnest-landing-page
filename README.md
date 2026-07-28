@@ -46,6 +46,9 @@ This project is a modern responsive landing page, built as a frontend practice p
 
 <img width="800" height="425" alt="scroll-reveal-gif" src="https://github.com/user-attachments/assets/c0296a36-9edb-4322-8ec7-3f0028c6d7ac" />
 
+### 🔷 Dark mode
+
+<img width="1920" height="1020" alt="dark-mode gif" src="https://github.com/user-attachments/assets/62a0830a-da53-4bf1-a1d6-030cc5199d5b" />
 
 
 
